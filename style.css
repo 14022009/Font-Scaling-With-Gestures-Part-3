@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Vibes;
+}
+
+.heading_part {
+    background-color: #66f79e;
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.heading_part_content {
+    background-color: #13085c;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2%;
+    text-align: justify;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+#text_inp{
+    float: left;
+    width: 100%;
+    background-color: #d9294e;
+    border: 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: white;
+}
+
+/*  */
+
+video{
+    width: 430px;
+    height: 330px;
+    border: white 10px double;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+/*  */
+.footer_part {
+    background-color: #d9294e;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .heading_part {
+        font-size: 25px;
+    }
+
+    .heading_part_content {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1920px){
+    .heading_part {
+        font-size: 70px;
+    }
+
+    .heading_part_content {
+        font-size: 30px;
+    }
+
+    canvas{
+        margin-top: 70px;
+    }
+
+    video{
+        margin-top: 70px;
+        width: 700px;
+        height: 530px;
+}
+
+}
+canvas{
+    background-color: white;
+}
